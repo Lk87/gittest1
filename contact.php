@@ -2,17 +2,17 @@
 <html>
 
 <head>
-  <title>Home</title>
+  <title>Contact</title>
   <meta name="description" content="Personal Website" />
   <meta name="keywords" content="Personal, Professional, Blog" />
   <meta charset="UTF-8"/>
         
-                                <link rel="stylesheet" type="text/css" href="css/style_new.css" />
-                                        <!-- modernizr enables HTML5 elements and feature detects -->
-                                <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+                               <link rel="stylesheet" type="text/css" href="css/style_new.css" />
+                                        
+                             <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
 </head>
 
-        
+       
 <body>
   <div id="main">
     <header>
@@ -40,25 +40,26 @@
       </div>
       <div id="content">
           
-        <h1>Welcome to My Page</h1>
-        <p> I'm Lakshmi Rajeev Kandarpa, currently working as a GIS Intern at Delaware Valley Regional Planning Commission, Philadelphia, PA. 
-            I have three years’ experience in researching, analyzing and validating geographic and tabular data to create accurate maps, graphs, charts, and other graphics for use in urban planning. I’m seeking to apply my technological knowledge, ability and understanding of GIS Best Practices to add value to a GIS team.
-            Check this space regualarly for updates on my past, current and future GIS projects.  </p>
-        
-          <h2>Area of Expertise </h2>
-        <p> The following are my areas of expertise: </p>
-        <ul>
-          <li>Geographic Information Systems </li>
-          <li>Urban Planning</li>
-          <li>Transport Planning</li>
-          <li>HTML, CSS, Javascript and JSON programming</li>
-        </ul>
+          
+          
+          
+        <h1>Contact</h1>
+       
+        <form id="contact" action="contact.php" method="post">
+          <div class="form_settings">
+            <p><span>Name</span><input class="contact" type="text" name="#"</p>
+            <p><span>Email Address</span><input class="contact" type="text" name="#" </p>
+            <p><span>Message</span><textarea class="contact textarea" rows="5" cols="50" name="your_message"></textarea></p>
+            
+            <p style="padding-top: 15px"><span>&nbsp;</span><input class="submit" type="submit" name="contact_submitted" value="send" /></p>
+          </div>
+        </form>
       </div>
     </div>
-      
-    <footer>
+        
+      <footer>
       <p><a href="home.html">Home</a> | <a href="about.html">About me</a> | <a href="projects.html"> Projects </a> | <a href="blog.html">Blog</a> | <a href="contact.php">Contact</a></p>
-      <p>"The reward for work well done is the opportunity to do more"</a></p>
+      <p>"Stay in touch"</a></p>
     </footer>
   </div>
 
